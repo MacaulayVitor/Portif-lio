@@ -1,0 +1,16 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0, 255, 166, 0.64);
+}
+body{
+    background: url(../fundo-escuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+li{
+    list-style:none;
+}

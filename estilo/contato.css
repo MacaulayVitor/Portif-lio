@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0, 255, 166, 0.64);
+}
+h2{
+    font-size: 2.4em;
+}
+.row a{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.516);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 3em;
+    width: 20em;
+    text-decoration: none;
+}
+
+body{
+    background: url(../fundo-escuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contatos{
+    margin-bottom: 3em;
+    max-height: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.516);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+button{
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+    background-color: rgba(0, 255, 166, 0.64);
+}
+button:hover{
+    color: white;
+}
+input:valid,
+textarea:valid{
+    border-color: green;
+}
+input{
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+textarea{
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+span{
+    position: relative;
+}
+input + span::before{
+    position: absolute;
+    right: 10px;
+    top: -1px;
+}
+textarea + span::before{
+    position: absolute;
+    right: 10px;
+}
+
+@media(max-width:999px){
+    .row a{
+        margin: 10px;
+        height: 3em;
+        width: 13em;
+        font-size: 0.8em;
+    }
+}
+@media(max-width:700px){
+    input{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:800px){
+    .row a{
+        margin: 10px;
+        height: 3em;
+        width: 10em;
+        font-size: 0.6em;
+    }
+}
+@media(max-width:600px){
+    .row a{
+        margin: 10px;
+        height: 3em;
+        width: 10em;
+        font-size: 0.6em;
+    }
+    .contatos{
+        display: grid;
+    }
+    textarea{
+        max-width: 200px;
+        max-height: 100px;
+    }
+}
+@media(max-width:450px){
+    textarea{
+        max-width: 150px;
+        max-height: 100px;
+    }
+}

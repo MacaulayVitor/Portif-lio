@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/ecc008fe01.js" crossorigin="anonymous"></script>
+    <title>Contatos</title>
+    <link rel="stylesheet" href="./estilo/contato.css">
+    <link rel="stylesheet" href="./estilo/navbar-contato.css">
+</head>
+<body>
+    <h2>Contatos</h2>
+    <div class="row">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+
+            <input type="hidden" name="accessKey" value="f90085e2-e57a-483e-bb2c-cd94b4d3aeee">
+            <input type="hidden" name="redirectTo" value="./contato.html"> 
+            <div>
+                <label for="inputNome"></label>
+                <input type="text" id="inputNome" name="name" required maxlength="25" minlength="2" placeholder='Nome'> 
+                <label for="inputEmail"></label>
+                <input type="email" name="email" id="inputEmail" required maxlength="50" placeholder='E-Mail'> 
+            </div>
+            <label for="textAreaMensagem"></label>
+            <textarea name="message" id="textAreaMensagem" cols="30" rows="10" required maxlength="200" placeholder='Mensagem'></textarea>
+
+            <button>enviar mensagem</button>
+        </form>
+        <div class="contatos">
+            <a href="http://"><i class="devicon-github-original"> Macaulay Vitor</i></a>
+            <a href="http://"><i class="devicon-linkedin-plain"> Macaulay Vitor</i></a>
+            <a href="mailto:macaulayvitor5@gmail.com"><i class="fa-regular fa-envelope"> macaulayvitor5@gmail.com</i></a>
+            <a href="https://wa.me/qr/NS2U7CJHEOI2J1"><i class="fa-brands fa-whatsapp"> (32) 98869-6207</i></a>
+        </div>
+    </div>
+    <nav id="nav">
+        <button class="button" aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+        </button>
+        <ul class="menu" role="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="conhecimentos.html">Conhecimento</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+        </ul>
+    </nav>
+</body>
+<script src="src/mobile-navbar.js"></script>
+</html>
