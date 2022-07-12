@@ -64,7 +64,7 @@ button:hover{
 }
 input:valid,
 textarea:valid{
-    border-color: green;
+    border-color: rgba(0, 255, 166, 0.64);
 }
 input{
     background-color: rgb(173, 173, 173);
