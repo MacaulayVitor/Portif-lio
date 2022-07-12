@@ -95,4 +95,10 @@ ul{
     .conhecimentos{
         height: 200vh;
     }
+    .linguagens h2{
+        font-size: 2.5em;
+        text-align: center;
+        display: flex;
+        justify-content: left;
+    }
 }

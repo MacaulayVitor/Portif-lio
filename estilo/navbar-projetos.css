@@ -57,13 +57,15 @@ a:hover {
       overflow-y: hidden;
     }
     #nav.active .menu{
-      height: 100px;
+      height: 120px;
       text-align: center;
       border-radius: 10px;
       background-color: rgba(0, 0, 0, 0.501);
       visibility: visible;
     }
-  
+  li{
+    margin-top: 0.5em;
+  }
     #btn-mobile{
       display: flex;
       padding:1rem;
