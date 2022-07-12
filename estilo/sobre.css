@@ -5,6 +5,7 @@
     color: rgba(0, 255, 166, 0.64);
 }
 a{
+  font-weight: bold;
   text-decoration: none;
 }
 body{
