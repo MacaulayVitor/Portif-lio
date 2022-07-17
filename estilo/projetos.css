@@ -7,6 +7,7 @@
 }
 body{
     background: url(../fundo-escuro.jpg);
+    background-color: rgb(12, 121, 184);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -32,7 +33,7 @@ body{
     justify-content: center;
 }
 .projetos li{
-    margin: 10px;
+    margin: 10px auto;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.516);
     display: flex;
@@ -78,7 +79,7 @@ a:hover{
 
 @media(max-width:862px){
     .projetos li{
-        margin: 10px;
+        margin: 10px auto;
         border-radius: 20px;
         background-color: rgba(0, 0, 0, 0.516);
         display: flex;
@@ -91,33 +92,11 @@ a:hover{
     .projetos ul{
         display: grid;
         justify-content: center;
-        margin-left: 24vh;
-    }
-}
-@media(max-width:650px){
-    .projetos ul{
-        display: grid;
-        justify-content: center;
-        margin-left: 20vh;
-    }
-}
-@media(max-width:610px){
-    .projetos ul{
-        display: grid;
-        justify-content: center;
-        margin-left: 16vh;
-    }
-}
-@media(max-width:570px){
-    .projetos ul{
-        display: grid;
-        justify-content: center;
-        margin-left: 10vh;
+        align-items: center;
     }
 }
 @media(max-width:610px){
     .projetos li{
-        margin: 10px;
         border-radius: 20px;
         background-color: rgba(0, 0, 0, 0.516);
         display: flex;
@@ -127,22 +106,10 @@ a:hover{
         height: 300px;
         width: 300px;
     }
-    .projetos ul{
-        display: grid;
-        justify-content: center;
-        margin-left: 24vh;
-    }
     img{
         border-radius: 10px;
         margin: 0;
         max-width: 16em;
         max-height: 14em;
-    }
-}
-@media(max-width:470px){
-    .projetos ul{
-        display: grid;
-        justify-content: center;
-        margin-left: 7vh;
     }
 }

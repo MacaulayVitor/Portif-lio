@@ -17,7 +17,7 @@ body{
 img{
     max-width: 18em;
     max-height: 18em;
-    margin: 1em;
+    margin: 1em auto;
     border-radius: 10px;
   }
   .sobreMim {
@@ -63,7 +63,7 @@ p{
   img{
     max-width: 12m;
     max-height: 12em;
-    margin: 1em;
+    margin: 1em auto;
     border-radius: 10px;
   }
 }
@@ -74,7 +74,6 @@ p{
 }
 @media(max-width:530px){
   .sobre{
-    margin-left: 2em;
     display: grid;
   }
   .sobreMim {

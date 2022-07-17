@@ -23,6 +23,7 @@ h2{
 
 body{
     background: url(../fundo-escuro.jpg);
+    background-color: rgb(12, 121, 184);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

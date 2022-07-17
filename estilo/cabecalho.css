@@ -100,4 +100,9 @@
       grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     }
 }
+@media(max-width:460px){
+  li{
+    margin: 0 auto;
+  }
+}
 
