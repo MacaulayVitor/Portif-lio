@@ -14,7 +14,7 @@ body{
     background-attachment: fixed;
 }
 .conhecimentos{
-    height: 80vh;
+    height: 100vh;
 }
 .linguagens{
     margin-top: 10vh;
@@ -74,7 +74,7 @@ ul{
 }
 @media(max-width:1305px){
     .conhecimentos{
-        height: 140vh;
+        height: 150vh;
     }
 }
 @media(max-width:1200px){
