@@ -41,6 +41,13 @@ ul{
     margin: 1em auto;
     padding: 1em;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 1.6rem;
+    color: rgb(27, 121, 204);
 }
 .linguagens ul li h3{
     font-size:1.6em;
@@ -85,7 +92,7 @@ ul{
 }
 @media(max-width:1060px){
     .conhecimentos{
-        height: 150vh;
+        height: 160vh;
     }
 }
 @media(max-width:809px){
