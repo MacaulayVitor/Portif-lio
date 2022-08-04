@@ -10,6 +10,7 @@ a{
 }
 body{
     background: url(../fundo-escuro.jpg);
+    background-color: RGB(4, 47, 86);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

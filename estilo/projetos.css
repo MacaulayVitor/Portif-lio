@@ -7,7 +7,7 @@
 }
 body{
     background: url(../fundo-escuro.jpg);
-    background-color: rgb(12, 121, 184);
+    background-color: RGB(4, 47, 86);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -40,7 +40,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    height: 23em;
+    width: 24em;
 }
 p{
     font-size: 1.2em;
@@ -48,6 +49,7 @@ p{
     max-width: 20em;
 }
 img{
+    margin: 10px 0 10px 0;
     border-radius: 10px;
     margin: 0;
     max-width: 20em;
@@ -86,8 +88,7 @@ a:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 400px;
-        width: 400px;
+
     }
     .projetos ul{
         display: grid;
@@ -103,8 +104,9 @@ a:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 300px;
-        width: 300px;
+        height: 19em;
+        width: 22em;
+
     }
     img{
         border-radius: 10px;
