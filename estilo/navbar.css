@@ -26,6 +26,8 @@ a:hover {
   }
   
   .menu {
+    padding-bottom:10vh;
+    padding-top: 40vh;
     list-style: none;
     display: flex;
     gap: 5rem;
