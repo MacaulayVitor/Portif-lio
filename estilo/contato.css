@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -40,6 +40,13 @@ h2{
     display: flex;
     justify-content: space-around;
 }
+.contatos i{
+    display: flex;
+}
+.contatos p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 form{
     margin: 10px;
     border-radius: 20px;
@@ -55,6 +62,7 @@ form{
     margin: 0 auto;
 }
 button{
+    padding: .1em;
     border-radius: 5px;
     margin: 10px;
     color: black;
