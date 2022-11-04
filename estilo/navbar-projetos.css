@@ -39,6 +39,7 @@ a:hover {
     list-style: none;
     display: flex;
     gap: 5rem;
+    padding-top: 24vw;
   }
   @media(max-width:999px){
     #nav{
